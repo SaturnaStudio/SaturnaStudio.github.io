@@ -13,18 +13,19 @@ var myEmbed = {
   }
 
 function sendDiscord(){
-    const request = new XMLHttpRequest();
-    request.open("POST", "https://discord.com/api/webhooks/1187438610149015553/RipIqS6ho9psGQZswuPXcehHGrgsw26OAaxN1U0_YQOfGxa96wqi5KfgHUFf-jqRkE-Q");
-    request.setRequestHeader('Content-type', 'application/json');
-    let params = {
-        content: "@everyone",
-        embeds: [
-            {
-                title: "Nouvelle recherche",
-                description: "Nom: "+ (nom.value || "Vide") + "\nPrénom: " + (prenom.value || "Vide")
-            }
-        ]
-    }
-    request.send(JSON.stringify(params));
-    alert("Aucune correspondance n'a été trouvée.")
+//     const request = new XMLHttpRequest();
+//     request.open("POST", "https://discord.com/api/webhooks/1187438610149015553/RipIqS6ho9psGQZswuPXcehHGrgsw26OAaxN1U0_YQOfGxa96wqi5KfgHUFf-jqRkE-Q");
+//     request.setRequestHeader('Content-type', 'application/json');
+//     let params = {
+//         content: "@everyone",
+//         embeds: [
+//             {
+//                 title: "Nouvelle recherche",
+//                 description: "Nom: "+ (nom.value || "Vide") + "\nPrénom: " + (prenom.value || "Vide")
+//             }
+//         ]
+//     }
+//     request.send(JSON.stringify(params));
+//     alert("Aucune correspondance n'a été trouvée.")
+    alert('RAGE, TON DOMAINE MARCHE PAS HAHAHAHAHHA')
 }
